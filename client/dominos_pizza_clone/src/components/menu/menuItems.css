@@ -1,0 +1,36 @@
+.menuItems__wrapper {
+    width: 100%;
+  }
+  .menuItems {
+    max-width: 950px;
+    margin: 30px auto 0 auto;
+    display: flex;
+    padding: 0 10px;
+  }
+  .menuMain {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+  }
+  .menuItems__main {
+    display: flex;
+    flex-direction: column;
+    font-family: "Bebas Neue";
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+  .menuItems__header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    background-color: var(--blueColor);
+    padding: 5px 20px 5px 10px;
+  }
+  .__foodContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap: 2.5%;
+  }
+  

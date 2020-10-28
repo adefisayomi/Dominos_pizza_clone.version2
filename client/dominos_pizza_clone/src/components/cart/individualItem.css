@@ -1,0 +1,56 @@
+
+.individual__main {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.individual__item > h1 {
+    color: var(--blueColor);
+    font-size: 15px;
+    font-weight: 500;
+    flex: 1;
+    margin-left: 15px;
+}
+.individual__item{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-top: 1px solid rgb(189, 186, 186);
+    padding-top: 10px;
+}
+.individual__item > img {
+    width: 13%;
+    border-radius: 5px;
+}
+.individual__item > p {
+font-size: 13px;
+margin-right: 20px;
+color: rgb(71, 71, 71);
+}
+
+/* editable section--------------------*/
+.individual__editable{
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    margin-top: 15px;
+    margin-bottom: -10px;
+}
+.individual__editable > label{
+    font-size: 13px;
+}
+.individual__editable > label > select{
+width: 45px;
+height: 25px;
+margin-right: 20px;
+
+}
+.individual__editable > button {
+    border-radius: 2px;
+    padding: 3px 5px;
+    margin-left: 10px;
+    font-size: 12px;
+    background: none;
+    border: 1px solid grey;
+    color: var(--darkText);
+}

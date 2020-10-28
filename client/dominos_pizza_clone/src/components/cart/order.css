@@ -1,0 +1,105 @@
+.order{
+    width: 100%;
+    position: fixed;
+    height: 100vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.507);
+    z-index: 10;
+}
+.order__container {
+    background-color: white;
+    position: relative;
+    top: 7%;
+    max-width: 900px;
+    height: auto;
+    border: 1px solid rgb(201, 199, 199);
+    margin: 0 auto;
+    padding: 0 10px 30px 10px;
+}
+.order__header{
+    display: flex;
+    padding: 10px;
+}
+.order__header > h1 {
+    flex: 1;
+    font-family: 'Bebas Neue';
+    font-weight: 500;
+    font-size: 45px;
+    letter-spacing: 0.6px;
+    color: black;
+}
+.order__header > button {
+    background: none;
+    color: black;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    align-self: flex-start;
+}
+.order__main{
+    display: flex;
+
+}
+.order__main > div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    width: 100%;
+}
+.order__main > div > h1 {
+    font-family: 'Bebas Neue';
+    font-weight: 500;
+    font-size: 18px;
+    padding: 5px 10px;
+    letter-spacing: 1px;
+    color: white;
+    background-color: var(--blueColor);
+}
+.order__main > div > label{
+    font-family: 'Roboto';
+border: 1px solid rgb(212, 212, 212);
+padding: 10px;
+color: black;
+font-size: 13px;
+}
+.order__main > div > label > input{
+    float: right;
+    margin-right: 50px;
+    border: none;
+    font-size: 11px;
+    outline: none;
+}
+.order__main > div > div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+.order__main > div > div > button {
+padding: 7px 15px;
+font-size: 18px;
+}
+.order__main > div > div > label  {
+    font-family: 'Roboto';
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(63, 62, 62);
+    margin: 10px 10px 0 10px;
+}
+.order__main > div > div > label >select {
+    border: 1px solid grey;
+    height: 25px;
+    width: 45px;
+    outline: none;
+}
+.orderLink{
+    color: var(--blueColor);
+    font-size: 13px;
+}
+.order__container > p{
+    color: var(--darkText);
+    font-size: 10px;
+    margin-top: 5px;
+}

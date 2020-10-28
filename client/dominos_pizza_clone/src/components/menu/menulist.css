@@ -1,0 +1,34 @@
+
+  .menulist {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 23.1%;
+    max-width: 23.1%;
+    margin-bottom: 10px;
+  }
+  .menulist > div > p{
+    font-family: 'Roboto';
+    color: rgb(92, 91, 91);
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: -0.5px;
+  }
+  .menulist > button {
+      padding: 7px 20px;
+  }
+  .menulist__Image {
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 5px;
+    border-radius: 4px;
+  }
+  .menulist > span {
+      padding: 5px 0;
+  }
+  .menulistLink{
+      color: var(--blueColor);
+      text-decoration: none;
+  }
+ .menulistLink:hover{
+     color: var(--linkColor);
+ }

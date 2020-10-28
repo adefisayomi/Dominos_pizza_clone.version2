@@ -1,0 +1,25 @@
+.available{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Oswald';
+    text-transform: capitalize;
+}
+
+.available__footer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-top: 2px solid var(--blueColor);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(235, 230, 230);
+}
+.available__footer > p {
+    font-weight: 500;
+    margin-right: 20px;
+    color: var(--darkText);
+}
+.available__footer > button {
+padding: 7px 20px;
+margin-right: 10px;
+}

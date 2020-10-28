@@ -1,0 +1,20 @@
+.menuHeader {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .menuHeader > h1 {
+    font-family: "Bebas Neue";
+    font-size: 45px;
+    font-weight: 500;
+    color: var(--darkText);
+  }
+  .menuHeader > p {
+    font-size: 13px;
+    font-weight: bold;
+    color: var(--blueColor);
+    margin-right: 150px;
+  }
+  .menuHeaderLink{
+      color: var(--blueColor);
+  }

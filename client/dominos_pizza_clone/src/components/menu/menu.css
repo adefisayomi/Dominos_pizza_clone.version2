@@ -1,0 +1,16 @@
+
+.menu{
+    max-width: 950px;
+    margin: 30px auto 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.menu__cat {
+flex: 1;
+}
+
+
+
+

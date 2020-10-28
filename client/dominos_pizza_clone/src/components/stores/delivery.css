@@ -1,0 +1,49 @@
+.delivery > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 700px;
+    margin: 30px  auto 0 auto;
+  }
+  .delivery > form >label {
+    color: var(--darkText);
+    font-weight: 500;
+    font-size: 13px;
+  }
+  .delivery > form > p {
+    color: var(--darkText);
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+    align-self: flex-end;
+  }
+
+  .delivery > form > label > input, select {
+    margin-bottom: 10px;
+    border: 1px solid rgb(172, 171, 171);
+    outline: none;
+    border-radius: none;
+    padding: 3px;
+    width: 500px;
+    margin-left: 20px;
+    font-size: 11px;
+    color: var(--darkText);
+  }
+  .delivery > form > textarea{
+    width: 500px;
+    height: 100px;
+    resize: vertical;
+    border: 1px solid rgb(172, 171, 171);
+    padding: 10px;
+
+  }
+  .delivery > form >label[name = "deliveryExample"] {
+    font-size: 11px;
+    padding: 10px 0;
+  }
+  .delivery > form > button {
+    padding: 7px 30px;
+    align-self: center;
+    margin-left: 100px;
+  }

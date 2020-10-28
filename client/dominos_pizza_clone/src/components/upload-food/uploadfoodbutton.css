@@ -1,0 +1,17 @@
+.uploadFoodButton{
+    position: fixed;
+    top: 20%;
+    padding: 10px ;
+    transform: translateX(-85%);
+    transition: 0.5s;
+    background-color: var(--blueColor);
+    font-size: 18px;
+}
+.uploadFoodButton:hover{
+transform: translateX(2%);
+}
+.pizzaIcon{
+    font-size: 30px !important;
+    color: white;
+    margin-bottom: -5px;
+}

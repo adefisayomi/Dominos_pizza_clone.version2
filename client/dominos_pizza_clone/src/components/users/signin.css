@@ -1,0 +1,113 @@
+.signin__wrapper {
+  background-color: rgba(255, 255, 255, 0.76);
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+.signin {
+  max-width: 550px;
+  position: relative;
+  margin: 50px auto 0 auto;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid rgb(190, 189, 189);
+  background-color: white;
+}
+.signin__header {
+  height: 70px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  border-radius: 4px 4px 0 0;
+}
+.signin__header > span {
+  font-family: 'Bebas Neue';
+  font-size: 43px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  padding-left: 5px;
+  color: var(--darkText);
+  flex: 1;
+  
+}
+.signin__header > button {
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0;
+}
+.header__closeIcon {
+  color: black;
+  cursor: pointer;
+}
+.signin__body > form {
+  color: var(--darkText);
+  max-height: 400px;
+}
+.signin__body > form {
+  display: flex;
+  flex-direction: column;
+}
+.signin__button {
+  display: flex;
+  justify-content: space-between;
+}
+.signin__button > button {
+ margin-top: 20px;
+}
+.signin__button2 {
+  margin-left: 10px;
+  padding: 7px 20px;
+  flex: 1;
+}
+.signin__button1 {
+  background-color: var(--blueColor);
+  margin-right: 10px;
+  padding: 7px 20px;
+  flex: 1;
+}
+.signin__button1:hover {
+  background-color: var(--darkBlue);
+}
+
+.signin__body > form > p,
+.signin__body > form > label {
+  font-family: sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+}
+.signin__body > form > input {
+  margin-bottom: 10px;
+  border: 1px solid grey;
+  padding: 5px;
+  outline: none;
+}
+.resetPassword {
+  color: var(--blueColor);
+  float: right;
+  text-decoration: underline;
+}
+.resetPassword:hover {
+  color: var(--linkColor);
+  text-decoration: underline;
+}
+.securedOrder {
+  padding-top: 10px;
+  color: #b1b0b0;
+  float: right;
+  font-size: 9px;
+  padding-left: 275px;
+}
+.signupLink{
+  color: var(--blueColor);
+  font-size: 14px;
+  text-decoration: none;
+}
+.signupLink:hover{
+  color: var(--linkColor);
+}

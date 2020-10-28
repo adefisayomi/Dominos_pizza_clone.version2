@@ -1,0 +1,41 @@
+.cart {
+    position: fixed;
+    top: 10%;
+    left: 70%;
+    transform: translateX(-50%);
+    box-shadow: 1px 3px 10px rgb(80, 80, 80);
+    width: 500px;
+    min-height: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  .cart__header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--blueColor);
+    padding: 10px;
+  }
+  .cart__header > h1 {
+    font-family: "Bebas Neue";
+    font-weight: 500;
+    color: var(--blueColor);
+    font-size: 25px;
+    margin-bottom: 0;
+  }
+  .cart__header > button {
+    padding: 0;
+    background: none;
+    border: none;
+    outline: none;
+  }
+  .cart__closebtn:hover {
+    background-color: rgb(197, 194, 194);
+    transition: 0.5s;
+    border-radius: 5px;
+  }
+  .cart__closebtn {
+    color: var(--blueColor);
+    font-size: 25px !important;
+  }
+  

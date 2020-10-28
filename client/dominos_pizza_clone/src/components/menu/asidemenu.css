@@ -1,0 +1,52 @@
+/* menu aside section ============================== */
+.aside {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 15px;
+    position: sticky;
+    top: 30%;
+    transition: 0.4s;
+    z-index: 1;
+    }
+    .aside__header, .aside__main {
+        border: 1px solid rgb(196, 194, 194);
+        margin-bottom: 10px;
+        background-color: white;
+    }
+.aside__header > h1, .aside__main > h1{
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: white;
+    background-color: var(--blueColor);
+    padding: 5px 10px 5px 20px;
+    font-size: 19px;
+    border-radius: 3px 3px 0 0;
+}
+.aside__header > p {
+    padding: 10px 5px;
+    color: var(--blueColor);
+    font-size: 13px;
+    font-weight: 500;
+}
+.aside__main > div {
+    padding: 0 10px;
+}
+.aside__main > div > h4 {
+    color: red;
+    font-size: 14px;
+    padding: 10px 0 ;
+    border-top: 1px solid rgb(212, 210, 210);
+}
+.aside__main > div > h4:nth-child(1) {
+border-top: none;
+}
+.aside__main > div > p{
+    color: var(--darkText);
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+.aside__main > div > p > input {
+    margin-right: 5px;
+}

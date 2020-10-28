@@ -1,0 +1,16 @@
+.empty{
+padding: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.empty > p {
+color: var(--darkText);
+font-weight: 500;
+font-family: 'Oswald';
+font-size: 15px;
+margin-bottom: 20px;
+}
+.empty > button{
+    padding: 7px 20px;
+}

@@ -1,0 +1,6 @@
+.process{
+    width: 700px;
+    min-height: 500px;
+    background-color: var(--blueColor);
+    margin: 0 auto;
+}

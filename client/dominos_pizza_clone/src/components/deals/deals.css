@@ -1,0 +1,70 @@
+.deals__wrapper {
+    width: 100%;
+  }
+  .deals {
+    max-width: 70%;
+    min-width: 600px;
+    margin: 30px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+  }
+  .deals > h1 {
+    font-family: "Bebas Neue";
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    line-height: 35px;
+    color: var(--main-color);
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--blueColor);
+  }
+  .deals__couponBanner {
+    max-width: 60%;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .deals__couponBanner > h1 {
+    font-family: "Bebas Neue";
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+    padding: 4px 0 0 10px;
+    border-radius: 5px 5px 0 0;
+    background-color: var(--blueColor);
+  }
+  .deals__coupon {
+    background-color: rgb(236, 240, 239);
+    border: 3px solid var(--blueColor);
+    border-radius: 5px;
+    padding: 20px 30px;
+  }
+  .deals__coupon > p {
+    font-weight: bold;
+    color: var(--blueColor);
+    font-size: 15px;
+    line-height: 15px;
+    padding-bottom: 10px;
+  }
+  .deals__coupon > button {
+    float: right;
+    font-size: 20px;
+    padding: 5px 10px;
+  }
+  .deals__imageCoupon {
+    min-width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .deals__imageLink > img {
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 5px;
+  }
+  
