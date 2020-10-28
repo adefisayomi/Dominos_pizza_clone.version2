@@ -30,6 +30,7 @@ const closeOrderModal = () => {
                 {user ? <div><p>{subtitle}</p> <p>starting @{price}</p> </div>: false }
                 
                 <Order display = {modal} close = {closeOrderModal}  title = {title} image = {image} subtitle = {subtitle} price = {price} header = {header} id = {id}/>
+                
                   </div>
     )
 }

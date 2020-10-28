@@ -20,6 +20,7 @@ export const Delivery = ({display}) => {
   const handleSubmit = (e) => {
     e.preventDefault()
     SignupUser({userInfo})
+    history.push('/menu')
   }
 
     return (

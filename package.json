@@ -1,0 +1,22 @@
+{
+  "name": "dominos_pizza_clone",
+  "version": "2.0.0",
+  "description": "A clone of dominos pizza comapany web application",
+  "main": "\\",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "dominos_pizza_clone_version.2.0.0"
+  },
+  "keywords": [
+    "dominos",
+    "javascript",
+    "react",
+    "firebase",
+    "mongodb"
+  ],
+  "author": "Adefisayomi Oluwole",
+  "license": "ISC"
+}
